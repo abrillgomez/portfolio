@@ -16,24 +16,24 @@ const skillCategories = [
   },
   {
     title: "Backend & DB",
-    skills: ["PHP", "SQL", "APIs REST"],
+    skills: ["PHP", "Java", "SQL", "APIs REST"],
   },
   {
     title: "Herramientas",
     skills: [
       "Git",
       "GitHub",
-      "Figma",
-      "Claude AI",
-      "Postman",
-      "Docker",
-      "Vercel",
       "Vite",
+      "Vercel",
+      "Docker",
+      "Figma",
+      "Postman",
+      "Claude AI",
     ],
   },
   {
     title: "Metodologías",
-    skills: ["Kanban", "Scrum", "Code Review", "Testing"],
+    skills: ["Scrum", "Kanban", "Code Review", "Testing"],
   },
 ];
 
