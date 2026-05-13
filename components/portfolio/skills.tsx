@@ -26,13 +26,14 @@ const skillCategories = [
       "Figma",
       "Claude AI",
       "Postman",
+      "Docker",
       "Vercel",
       "Vite",
     ],
   },
   {
     title: "Metodologías",
-    skills: ["Metodologías Ágiles", "Scrum", "Code Review"],
+    skills: ["Kanban", "Scrum", "Code Review", "Testing"],
   },
 ];
 
