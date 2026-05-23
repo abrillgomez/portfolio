@@ -52,8 +52,6 @@ const certifications = [
     period: "Sep 2023 — Oct 2024",
     title: "Frontend Developer",
     institution: "Digital House",
-    code: "https://github.com/abrillgomez/digital-money-house",
-    demo: "https://digital-money-house-one.vercel.app/",
   },
   {
     period: "Feb 2022 — Sep 2023",
@@ -131,26 +129,6 @@ export function Experience() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1.5 text-primary hover:underline underline-offset-4 text-sm shrink-0">
                     Ver credencial
-                    <ExternalLink size={14} />
-                  </Link>
-                )}
-                {cert.code && (
-                  <Link
-                    href={cert.code}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-primary hover:underline underline-offset-4 text-sm shrink-0">
-                    Ver código
-                    <ExternalLink size={14} />
-                  </Link>
-                )}
-                {cert.demo && (
-                  <Link
-                    href={cert.demo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-primary hover:underline underline-offset-4 text-sm shrink-0">
-                    Ver demo
                     <ExternalLink size={14} />
                   </Link>
                 )}

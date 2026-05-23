@@ -9,9 +9,10 @@ import { ThemeToggle } from "./theme-toggle"
 const navItems = [
   { name: "Sobre mí", href: "#about" },
   { name: "Experiencia", href: "#experience" },
+  { name: "Proyectos", href: "#projects" },
   { name: "Habilidades", href: "#skills" },
   { name: "Contacto", href: "#contact" },
-]
+];
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
