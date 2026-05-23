@@ -101,7 +101,13 @@ export function Projects() {
               key={project.title}
               className="grid md:grid-cols-2 gap-8 group">
               {/* Project Image */}
-              <div className="relative aspect-video rounded-lg overflow-hidden border border-border bg-card flex items-center justify-center">
+              <div
+                className="relative aspect-video rounded-lg overflow-hidden border border-border bg-muted flex items-center justify-center"
+                style={{
+                  backgroundImage:
+                    "radial-gradient(circle, var(--border) 1px, transparent 1px)",
+                  backgroundSize: "28px 28px",
+                }}>
                 {project.image ? (
                   <Image
                     src={project.image}
