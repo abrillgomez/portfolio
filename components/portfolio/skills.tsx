@@ -11,6 +11,7 @@ const skillCategories = [
       "Redux Toolkit",
       "Context API",
       "Tailwind CSS",
+      "Clerk",
       "shadcn/ui",
       "Material UI",
       "Web Performance",
@@ -23,6 +24,8 @@ const skillCategories = [
     title: "Backend & DB",
     skills: [
       "Node.js",
+      "Supabase",
+      "PostgreSQL",
       "APIs REST",
       "PHP",
       "Arquitectura de software",
@@ -38,6 +41,7 @@ const skillCategories = [
       "GitHub",
       "Vercel",
       "AWS",
+      "CI/CD",
       "Vite",
       "Figma",
       "Postman",
@@ -46,11 +50,12 @@ const skillCategories = [
       "Yarn / NPM",
       "Docker",
       "Claude AI",
+      "Salesforce",
     ],
   },
   {
     title: "Metodologías",
-    skills: ["CI/CD", "Code Review", "Testing", "Scrum", "Kanban", "Agile"],
+    skills: ["Code Review", "Testing", "Scrum", "Kanban"],
   },
 ];
 
