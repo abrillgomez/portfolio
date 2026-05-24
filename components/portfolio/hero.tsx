@@ -42,6 +42,7 @@ export function Hero() {
                 Sobre mí
               </NavLink>
               <NavLink href="#experience">Experiencia</NavLink>
+              <NavLink href="#projects">Proyectos</NavLink>
               <NavLink href="#skills">Habilidades</NavLink>
             </nav>
             {/* Social Links */}
