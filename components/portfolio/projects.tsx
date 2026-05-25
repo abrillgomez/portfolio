@@ -5,30 +5,6 @@ import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
-    title: "Mood Capsule",
-    description:
-      "App mobile para registrar el estado de ánimo diario mediante cápsulas de texto. Permite escribir una frase por día, elegir un mood y releer entradas pasadas. Proyecto de aprendizaje de React Native con Expo.",
-    technologies: [
-      "React Native",
-      "Expo",
-      "TypeScript",
-      "NativeWind",
-      "AsyncStorage",
-      "Expo Router",
-    ],
-    github: null,
-    demo: null,
-    image: null,
-    features: [
-      "Registro diario de mood con texto libre",
-      "Selector de estado de ánimo (feliz / neutro / mal)",
-      "Historial de cápsulas con fecha y color según mood",
-      "Detalle de cada entrada al tocarla",
-      "Persistencia local con AsyncStorage",
-    ],
-    status: "in-progress",
-  },
-  {
     title: "Platty",
     description:
       "Plataforma SaaS para restaurantes que reemplaza los menús impresos por menús digitales accesibles vía QR. Permite gestionar platos, precios y stock en tiempo real, con soporte multi-idioma y planes de suscripción.",
@@ -58,6 +34,23 @@ const projects = [
       "Tests E2E con Playwright y unitarios con Vitest",
     ],
     status: "in-progress",
+  },
+  {
+    title: "Mood Capsule",
+    description:
+      "App mobile para registrar el estado de ánimo diario mediante cápsulas de texto. Permite escribir una frase por día, elegir un mood y releer entradas pasadas. Proyecto de aprendizaje de React Native con Expo.",
+    technologies: ["React Native", "Expo", "AsyncStorage", "React Navigation"],
+    github: "https://github.com/abrillgomez/mood-capsule",
+    demo: null,
+    image: "/projects/mood-capsule.jpeg",
+    features: [
+      "Registro diario de mood con texto libre",
+      "Selector de estado de ánimo (feliz / neutro / mal)",
+      "Historial de cápsulas con fecha y color según mood",
+      "Detalle de cada entrada al tocarla",
+      "Persistencia local con AsyncStorage",
+    ],
+    mobile: true,
   },
   {
     title: "Digital Money House",
@@ -102,7 +95,7 @@ export function Projects() {
               className="grid md:grid-cols-2 gap-8 group">
               {/* Project Image */}
               <div
-                className="relative aspect-video rounded-lg overflow-hidden border border-border bg-muted flex items-center justify-center"
+                className={`relative ${project.mobile ? "aspect-[9/16] w-[260px] mx-auto" : "aspect-video"} rounded-lg overflow-hidden border border-border bg-muted flex items-center justify-center`}
                 style={{
                   backgroundImage:
                     "radial-gradient(circle, var(--border) 1px, transparent 1px)",
@@ -113,7 +106,7 @@ export function Projects() {
                     src={project.image}
                     alt={`Screenshot de ${project.title}`}
                     fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="object-contain transition-transform duration-500 group-hover:scale-105"
                   />
                 ) : (
                   <span className="text-muted-foreground font-mono text-sm">
