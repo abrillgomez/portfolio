@@ -16,23 +16,21 @@ export function Hero() {
                 Gómez
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mt-4">
-                Frontend Developer Ssr.
+                Full Stack Developer Ssr.
               </p>
             </div>
             <p className="text-muted-foreground leading-relaxed max-w-md">
               Lidero el desarrollo de{" "}
               <span className="text-foreground font-medium">
-                interfaces web robustas
+                arquitecturas end-to-end
               </span>
-              , priorizando la{" "}
+              , priorizando el{" "}
+              <span className="text-foreground font-medium">rendimiento</span>,
+              la{" "}
+              <span className="text-foreground font-medium">escalabilidad</span>{" "}
+              y la{" "}
               <span className="text-foreground font-medium">
                 calidad del código
-              </span>
-              , la{" "}
-              <span className="text-foreground font-medium">escalabilidad</span>{" "}
-              y una excelente{" "}
-              <span className="text-foreground font-medium">
-                experiencia de usuario
               </span>
               .
             </p>
@@ -64,48 +62,42 @@ export function Hero() {
           {/* Right Column - About Text */}
           <div className="space-y-6 text-muted-foreground leading-relaxed">
             <p className="text-foreground text-lg">
-              Enfocada en{" "}
+              Enfocada en construir{" "}
               <span className="text-primary font-medium">
-                arquitectura y rendimiento.
+                plataformas robustas.
               </span>{" "}
               Utilizo{" "}
               <span className="text-foreground font-medium">
-                React y TypeScript
+                React, TypeScript y Next.js
               </span>{" "}
-              para transformar lógicas complejas en interfaces rápidas,
-              eficientes y preparadas para escalar.
+              junto a tecnologías de backend para transformar lógicas de negocio
+              complejas en sistemas rápidos, eficientes y preparados para
+              escalar.
             </p>
 
             <p>
-              <span className="text-foreground font-medium">Frontend Ssr</span>{" "}
+              <span className="text-foreground font-medium">
+                Full Stack Ssr
+              </span>{" "}
               con{" "}
               <span className="text-foreground font-medium">
                 3 años de experiencia
               </span>
-              . En mi paso más reciente por{" "}
+              . En mi paso por{" "}
               <Link
                 href="#"
                 className="text-primary hover:underline underline-offset-4 font-medium">
                 Indicum Technology
               </Link>
-              , fui la{" "}
+              , lideré la arquitectura de aplicaciones desde cero y la migración
+              de sistemas legacy. Además, rediseñé módulos críticos de bases de
+              datos y logística{" "}
+              <span className="text-foreground font-medium">(PHP/SQL)</span>,
+              implementando funcionalidades end-to-end que{" "}
               <span className="text-foreground font-medium">
-                única referente técnica
+                redujeron a la mitad la latencia
               </span>{" "}
-              de frontend en un equipo de 3, donde definí la arquitectura y
-              estándares de calidad para{" "}
-              <span className="text-foreground font-medium">
-                7+ aplicaciones
-              </span>{" "}
-              con{" "}
-              <span className="text-foreground font-medium">
-                React y TypeScript
-              </span>
-              , además de{" "}
-              <span className="text-foreground font-medium">
-                migrar sistemas legacy de jQuery
-              </span>{" "}
-              mejorando significativamente el rendimiento.
+              en producción.
             </p>
 
             <p>
@@ -114,8 +106,8 @@ export function Hero() {
                 Analista Programador Universitario
               </span>{" "}
               en la <span className="text-foreground font-medium">UNLP</span>{" "}
-              mientras sigo explorando nuevas tecnologías y herramientas de
-              desarrollo.
+              mientras sigo potenciando mi perfil hacia la gestión de bases de
+              datos y arquitecturas SaaS.
             </p>
 
             <div className="flex items-center gap-2 text-sm pt-4">
