@@ -23,7 +23,7 @@ const projects = [
       "Vitest"
     ],
     github: null,
-    demo: "https://platty-app-production.up.railway.app/",
+    demo: "https://platty.com.ar/",
     image: "/projects/platty.png",
     features: [
       "Menú público accesible vía QR sin descargas, con regeneración instantánea por invalidación de caché (sin rebuilds).",
